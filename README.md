@@ -1,8 +1,5 @@
-# 3d printer shield
+# 3d printer shield (rev.2)
 
 
-![](image/sch1.png)
-![](image/sch2.png)
-![](image/pcb.png)
-![](image/ordered.png)
-![](image/shield.png)
+![](image/sch.png)
+![](image/pcb.jpg)

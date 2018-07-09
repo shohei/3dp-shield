@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Driver.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NFXCGXMO
-
-[Document2]
 DocumentPath=3dprinter_shield.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WCRVKDDM
 
-[Document3]
+[Document2]
 DocumentPath=3dprinter_shield.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LPJLAJTB
 
-[Document4]
+[Document3]
 DocumentPath=Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBISQTTL
 
-[Document5]
+[Document4]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNMHOVAA
 
-[Document6]
+[Document5]
 DocumentPath=3Dprinter_shield.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -239,7 +222,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -345,7 +328,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -435,7 +418,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -457,7 +440,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -533,7 +516,7 @@ Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -570,7 +553,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -750,7 +733,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -789,7 +772,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -840,7 +823,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=192.168.100.201#:2
+TargetPrinter=iR-ADV C3330
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -960,6 +943,11 @@ Type108=1
 Type109=1
 Type110=1
 Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
 
 [Difference Levels]
 Type1=1
@@ -1024,6 +1012,9 @@ Type59=1
 Type60=1
 Type61=1
 Type62=1
+Type63=1
+Type64=1
+Type65=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1147,6 +1138,7 @@ Type118=3
 Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
+Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1193,20 +1185,20 @@ UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=3dprinter_shield.SchLib
-ComponentDesignItemID0=A4982
-ComponentSymbolReference0=A4982
-ComponentUpdate0=1
+ComponentDesignItemID0=AOB240L
+ComponentSymbolReference0=AOB240L
+ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=3dprinter_shield.SchLib
-ComponentDesignItemID1=AOB240L
-ComponentSymbolReference1=AOB240L
-ComponentUpdate1=0
+ComponentDesignItemID1=Cap_alumi_electrolytic
+ComponentSymbolReference1=Cap_alumi_electrolytic
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=3dprinter_shield.SchLib
-ComponentDesignItemID2=Cap_alumi_electrolytic
-ComponentSymbolReference2=Cap_alumi_electrolytic
+ComponentDesignItemID2=DRV8825
+ComponentSymbolReference2=DRV8825
 ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
@@ -1235,8 +1227,8 @@ ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Miscellaneous Connectors.IntLib
-ComponentDesignItemID7=Header 4
-ComponentSymbolReference7=Header 4
+ComponentDesignItemID7=Header 2
+ComponentSymbolReference7=Header 2
 ComponentUpdate7=0
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
@@ -1253,16 +1245,10 @@ ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Miscellaneous Devices.IntLib
-ComponentDesignItemID10=Cap Semi
-ComponentSymbolReference10=Cap Semi
+ComponentDesignItemID10=Res3
+ComponentSymbolReference10=Res3
 ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Miscellaneous Devices.IntLib
-ComponentDesignItemID11=Res3
-ComponentSymbolReference11=Res3
-ComponentUpdate11=0
-ComponentIsDeviceSheet11=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1276,90 +1262,90 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=LatestRevisionDate
+ParameterUpdate4=1
+ParameterName5=LatestRevisionNote
+ParameterUpdate5=1
+ParameterName6=Library Reference
+ParameterUpdate6=1
+ParameterName7=PackageDescription
+ParameterUpdate7=1
+ParameterName8=PackageReference
+ParameterUpdate8=1
+ParameterName9=Published
+ParameterUpdate9=1
+ParameterName10=Publisher
+ParameterUpdate10=1
+ParameterName11=Value
+ParameterUpdate11=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0402
+ModelName0=12Z-2010
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=0603
+ModelName1=14-1210
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=12Z-2010
+ModelName2=B4B-XH-A
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=14-1210
+ModelName3=DPAK254P1524X483-3N
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=1608[0603]
+ModelName4=DRV8825
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=B4B-XH-A
+ModelName5=EEE-1HA101UP
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=C1206
+ModelName6=EEE-1HA470XP
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=C1210
+ModelName7=HDR1X10
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=C2512
+ModelName8=HDR1X2
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=DPAK254P1524X483-3N
+ModelName9=HDR1X6
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=EEE-1HA101UP
+ModelName10=HDR1X8
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=EEE-1HA470XP
+ModelName11=J1-0603
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=HDR1X10
+ModelName12=MOLEX_2204_1021
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=HDR1X4
+ModelName13=OSTTC02-0162
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=HDR1X6
+ModelName14=RESC6332
 ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=HDR1X8
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=J1-0603
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=MOLEX_2204_1021
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=OSTTC02-0162
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=QFN50P500X500X100_HS-33N_2
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=RESC6332
-ModelUpdate20=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType21=SI
-ModelName21=Cap Semi
-ModelUpdate21=1
-ModelType22=SI
-ModelName22=Connector
-ModelUpdate22=1
-ModelType23=SI
-ModelName23=Res
-ModelUpdate23=1
+ModelType15=SI
+ModelName15=Connector
+ModelUpdate15=1
+ModelType16=SI
+ModelName16=Res
+ModelUpdate16=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType24=SIM
-ModelName24=CAP
-ModelUpdate24=1
-ModelType25=SIM
-ModelName25=RESISTOR
-ModelUpdate25=1
+ModelType17=SIM
+ModelName17=RESISTOR
+ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

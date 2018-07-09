@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=Power Member=NetP9_2
+Change Component Designator: OldDesignator=P5 NewDesignator=P3
+Change Component Designator: OldDesignator=P6 NewDesignator=P4
+Change Component Designator: OldDesignator=P9 NewDesignator=P5
+Change Component Designator: OldDesignator=P12 NewDesignator=P6
+Change Component Designator: OldDesignator=P13 NewDesignator=P7
+Change Component Designator: OldDesignator=P14 NewDesignator=P8
+Change Component Designator: OldDesignator=P15 NewDesignator=P9
+Change Component Designator: OldDesignator=P16 NewDesignator=P12
+Change Component Designator: OldDesignator=P17 NewDesignator=P13
+Change Component Designator: OldDesignator=P18 NewDesignator=P14
+Change Component Designator: OldDesignator=P19 NewDesignator=P15
+Change Component Designator: OldDesignator=P20 NewDesignator=P16
+Change Component Designator: OldDesignator=P21 NewDesignator=P17
+Change Component Designator: OldDesignator=P22 NewDesignator=P18
+Change Component Designator: OldDesignator=P23 NewDesignator=P19
+Change Component Designator: OldDesignator=P24 NewDesignator=P20
+Change Component Designator: OldDesignator=P25 NewDesignator=P21
+Change Component Designator: OldDesignator=P26 NewDesignator=P22
+Change Component Designator: OldDesignator=P27 NewDesignator=P23
+Change Component Designator: OldDesignator=P28 NewDesignator=P24
+Change Component Designator: OldDesignator=P29 NewDesignator=P25
+Change Component Designator: OldDesignator=P30 NewDesignator=P26
+Change Net Name : Old Net Name=NetP9_2 New Net Name=NetP5_2
+Added Member To Class: ClassName=Power Member=Wire NetP5_2

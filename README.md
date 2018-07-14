@@ -3,3 +3,5 @@
 
 ![](image/sch.png)
 ![](image/pcb.jpg)
+![](image/shield.png)
+![](image/pynq.png)

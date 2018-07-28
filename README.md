@@ -1,3 +1,4 @@
+## New version -> https://github.com/shohei/3dp-shieldp-rev3
 # 3d printer shield (rev.2)
 
 

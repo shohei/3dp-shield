@@ -5,3 +5,8 @@
 ![](image/pcb.jpg)
 ![](image/shield.png)
 ![](image/pynq.png)
+
+[1,2,3,4]=[red,blue,black,green]
+![](image/wiring.png)
+
+https://youtu.be/asQBW2eIQN0
